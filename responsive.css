@@ -1,0 +1,123 @@
+/* responsiveness.css */
+
+/* General Styles for Responsiveness */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navbar Responsiveness */
+.navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 15px 10px;
+}
+
+/* Home Section */
+.home {
+    flex-direction: column;
+    text-align: center;
+}
+
+.home-info h1 {
+    font-size: 35px;
+}
+
+.home-info h2 {
+    font-size: 24px;
+}
+
+.home-info p {
+    font-size: 14px;
+}
+
+.home-img {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.home-img .img-box {
+    width: 60vw;
+    height: 60vw;
+}
+
+/* About Section */
+.about p {
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+/* Services Section */
+.service-cards {
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    flex: 1 1 calc(100% - 30px);
+    margin: 10px;
+    padding: 15px;
+}
+
+.card i {
+    font-size: 30px;
+}
+
+/* Projects Section */
+.project-gallery {
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.project-item {
+    flex: 1 1 calc(100% - 30px);
+    margin: 10px;
+}
+
+.project-item img {
+    width: 100%;
+}
+
+/* Contact Section */
+.contact-form {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 90%;
+    max-width: 100%;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .home {
+        flex-direction: row;
+    }
+
+    .service-cards .card {
+        flex: 1 1 calc(50% - 30px);
+    }
+
+    .project-gallery .project-item {
+        flex: 1 1 calc(50% - 30px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .service-cards .card {
+        flex: 1 1 calc(33.33% - 30px);
+    }
+
+    .project-gallery .project-item {
+        flex: 1 1 calc(33.33% - 30px);
+    }
+}

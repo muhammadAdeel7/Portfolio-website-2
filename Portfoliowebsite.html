@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Personal Portfolio website using HTML CSS</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style00.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio.</a>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+        </ul>
+    </nav>
+    
+    <div class="bars-animations">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+
+    </div>
+    <section class="home">
+        <div class="home-info">
+            <h1>Muhammad Adeel</h1>
+            <h2>I'm a 
+                <span style="--i:2;" data-text="Frontened developer">Frontened developer</span>
+                <span style="--i:1;" data-text="Designer">Designer</span>
+            </h2>
+            <p>Transforming ideas into digital solutions</p>
+            <div class="btn-sci">
+                <a href="#" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="my pic.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Muhammad Adeel, a passionate frontend developer and designer. 
+            I specialize in creating visually appealing, responsive, and functional websites.
+            With a keen eye for design and a love for coding, I aim to bring ideas to life through clean and efficient code.
+        </p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <i class='bx bxl-html5'></i>
+                <h3>Web Development</h3>
+                <p>Creating modern, responsive, and user-friendly websites tailored to your needs.</p>
+            </div>
+            <div class="card">
+                <i class='bx bx-brush'></i>
+                <h3>UI/UX Design</h3>
+                <p>Designing intuitive user interfaces and exceptional user experiences.</p>
+            </div>
+            <div class="card">
+                <i class='bx bx-trending-up'></i>
+                <h3>SEO Optimization</h3>
+                <p>Enhancing website visibility to improve your online presence and traffic.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <!-- Projects Section -->
+<section class="projects" id="project">
+    <h2>Projects</h2>
+    <div class="project-gallery">
+        <!-- Project Card 1 -->
+        <div class="project-item">
+            <img src="image.png" alt="Project 1">
+            <h3>Portfolio Website</h3>
+            <p>A modern, responsive portfolio website to showcase skills and work.</p>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-item">
+            <img src="images.jpeg" alt="Project 2">
+            <h3>eCommerce Platform</h3>
+            <p>A fully functional eCommerce platform with a sleek design.</p>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="project-item">
+            <img src="download.jpeg" alt="Project 3">
+            <h3>Blog Website</h3>
+            <p>A clean and intuitive blog website for content creators.</p>
+        </div>
+    </div>
+</section>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact-me">
+        <h2>Contact Me</h2>
+        <p>If you'd like to collaborate, feel free to reach out!</p>
+        <form action="#" class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
+</body>
+</html>
